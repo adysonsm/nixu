@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NIXU Digital | Engenharia de Software, Cloud e IA</title>
+  <meta name="description" content="A NIXU Digital projeta e entrega software sob medida, infraestrutura cloud, segurança e engenharia de dados para produtos digitais de alta exigência.">
+  <meta name="theme-color" content="#533AB7">
+  <meta name="robots" content="index,follow">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="NIXU Digital | Engenharia de Software, Cloud e IA">
+  <meta property="og:description" content="Software sob medida, cloud, segurança e dados para produtos digitais mission-critical.">
+  <meta property="og:image" content="./assets/hero-image.png">
+  <meta property="og:image:alt" content="Visual principal da NIXU Digital com interface tecnológica em tons roxos.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NIXU Digital | Engenharia de Software, Cloud e IA">
+  <meta name="twitter:description" content="Software sob medida, cloud, segurança e dados para produtos digitais mission-critical.">
+  <meta name="twitter:image" content="./assets/hero-image.png">
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  <script>
+    window.tailwind = window.tailwind || {};
+    window.tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "surface-container-lowest": "#ffffff",
+            "on-tertiary-container": "#ffb483",
+            "surface-tint": "#6049c5",
+            "primary-container": "#533ab7",
+            "surface-container-highest": "#e6e0eb",
+            "surface-container-high": "#ebe6f1",
+            "surface-bright": "#fdf8ff",
+            "on-surface": "#2c2c2a",
+            "error-container": "#ffdad6",
+            "on-secondary-fixed-variant": "#41379b",
+            "inverse-on-surface": "#f4effa",
+            "on-surface-variant": "#565652",
+            "on-tertiary-fixed-variant": "#733600",
+            "on-primary-container": "#c8bcff",
+            "tertiary-fixed": "#ffdbc7",
+            "outline-variant": "#c9c4d5",
+            "surface-variant": "#e6e0eb",
+            "on-secondary": "#ffffff",
+            "error": "#ba1a1a",
+            "tertiary-container": "#833e00",
+            "background": "#fdf8ff",
+            "secondary": "#5951b4",
+            "on-primary-fixed-variant": "#482dac",
+            "on-tertiary": "#ffffff",
+            "secondary-container": "#9f97ff",
+            "tertiary-fixed-dim": "#ffb688",
+            "inverse-primary": "#cabeff",
+            "on-background": "#2c2c2a",
+            "inverse-surface": "#312f38",
+            "on-primary": "#ffffff",
+            "on-error-container": "#93000a",
+            "surface-container-low": "#f7f1fd",
+            "primary-fixed": "#e6deff",
+            "on-tertiary-fixed": "#311300",
+            "surface": "#f1efe8",
+            "secondary-fixed": "#e4dfff",
+            "on-secondary-fixed": "#140067",
+            "on-primary-fixed": "#1c0062",
+            "surface-container": "#f1ecf7",
+            "tertiary": "#602c00",
+            "primary": "#533ab7",
+            "outline": "#797585",
+            "primary-fixed-dim": "#cabeff",
+            "surface-dim": "#ddd8e3",
+            "secondary-fixed-dim": "#c5c0ff",
+            "on-secondary-container": "#33288d",
+            "on-error": "#ffffff"
+          },
+          borderRadius: {
+            DEFAULT: "0.25rem",
+            lg: "0.5rem",
+            xl: "0.75rem",
+            full: "9999px"
+          },
+          spacing: {
+            "stack-sm": "8px",
+            "button-padding": "20px 40px",
+            "stack-lg": "32px",
+            "grid-gap": "1px",
+            "section-padding-v": "96px",
+            "section-padding-h": "24px",
+            "stack-md": "16px",
+            "container-max": "1280px"
+          },
+          fontFamily: {
+            "display-lg": ["Space Grotesk"],
+            "body-main": ["Inter"],
+            "headline-md": ["Space Grotesk"],
+            "service-title": ["Space Grotesk"],
+            "micro-data": ["Inter"],
+            "label-caps": ["Space Grotesk"]
+          },
+          fontSize: {
+            "display-lg": ["64px", { lineHeight: "1.1", letterSpacing: "-0.02em", fontWeight: "700" }],
+            "body-main": ["18px", { lineHeight: "1.6", fontWeight: "400" }],
+            "headline-md": ["36px", { lineHeight: "1.2", fontWeight: "700" }],
+            "service-title": ["24px", { lineHeight: "1.3", fontWeight: "600" }],
+            "micro-data": ["10px", { letterSpacing: "0.1em", fontWeight: "500" }],
+            "label-caps": ["14px", { letterSpacing: "0.2em", fontWeight: "600" }]
+          }
+        }
+      }
+    };
+  </script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="text-on-surface">
+  <header class="fixed top-0 left-0 z-50 w-full border-b border-gray-200 bg-white/90 backdrop-blur-md">
+    <nav class="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-6 lg:px-8">
+      <div class="text-2xl font-black tracking-tighter text-indigo-700">NIXU</div>
+      <div class="hidden items-center gap-12 font-['Space_Grotesk'] text-sm font-bold uppercase tracking-widest md:flex">
+        <a class="border-b-2 border-indigo-700 pb-1 text-indigo-700" href="#servicos">Serviços</a>
+        <a class="text-slate-600 transition-colors duration-200 hover:text-indigo-700" href="#engineering">Engineering</a>
+        <a class="text-slate-600 transition-colors duration-200 hover:text-indigo-700" href="#about">About</a>
+        <a class="text-slate-600 transition-colors duration-200 hover:text-indigo-700" href="#contato">Contato</a>
+        <button id="translate-toggle" class="material-symbols-outlined text-indigo-700" type="button">translate</button>
+      </div>
+      <div class="flex items-center gap-2 md:hidden">
+        <a id="mobile-whatsapp-link" class="inline-flex h-11 w-11 items-center justify-center rounded-full bg-[#533AB7] text-white" href="https://wa.me/5511975198597?text=Ol%C3%A1%2C%20quero%20solicitar%20um%20or%C3%A7amento%20para%20um%20projeto%20com%20a%20NIXU%20Digital." target="_blank" rel="noopener noreferrer" aria-label="Abrir WhatsApp">
+          <span class="material-symbols-outlined text-[20px]">chat</span>
+        </a>
+        <button id="mobile-menu-toggle" class="material-symbols-outlined text-indigo-700 md:hidden" type="button" aria-expanded="false" aria-controls="mobile-menu">menu</button>
+      </div>
+    </nav>
+    <div id="mobile-menu" class="mobile-menu hidden border-t border-gray-200 bg-white px-5 py-6 sm:px-6 md:hidden">
+      <div class="flex flex-col gap-5 font-['Space_Grotesk'] text-sm font-bold uppercase tracking-widest">
+        <a class="mobile-menu-link text-indigo-700" href="#servicos">Serviços</a>
+        <a class="mobile-menu-link text-slate-600" href="#engineering">Engineering</a>
+        <a class="mobile-menu-link text-slate-600" href="#about">About</a>
+        <a class="mobile-menu-link text-slate-600" href="#contato">Contato</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="grid-pattern relative flex min-h-screen items-center overflow-hidden pt-24 sm:pt-28">
+      <div class="mx-auto grid w-full max-w-7xl grid-cols-1 items-center gap-10 px-5 sm:gap-12 sm:px-6 lg:grid-cols-2 lg:gap-16 lg:px-8">
+        <div>
+          <div class="mb-6 inline-flex max-w-full items-center gap-2 rounded-sm bg-primary-container px-3 py-1 text-on-primary-container">
+            <span class="material-symbols-outlined text-sm">terminal</span>
+            <span class="font-micro-data text-micro-data uppercase leading-tight">System Initialized // v.2.4.0</span>
+          </div>
+          <h1 class="mb-6 max-w-3xl font-display-lg text-[clamp(2.75rem,9vw,4rem)] leading-[1.02] text-primary sm:mb-8">
+            Inovação sem fronteiras.
+            <span class="mt-3 block text-xl font-light italic text-outline sm:text-2xl lg:text-3xl">Innovation without borders.</span>
+          </h1>
+          <p class="mb-10 max-w-xl font-body-main text-[1rem] leading-7 text-on-surface-variant sm:text-body-main sm:leading-[1.6]">
+            Construindo a infraestrutura digital do amanhã com precisão matemática e arquitetura de elite. Transformamos visão em código escalável.
+          </p>
+          <div class="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
+            <a class="inline-flex min-h-[56px] items-center justify-center bg-[#533AB7] px-8 py-4 text-center font-label-caps text-label-caps uppercase tracking-widest text-white transition-all hover:brightness-110 sm:px-10 sm:py-5" href="#contato">
+              Iniciar projeto
+            </a>
+            <a class="inline-flex min-h-[56px] items-center justify-center border border-[#533AB7] px-8 py-4 text-center font-label-caps text-label-caps uppercase tracking-widest text-[#533AB7] transition-all hover:bg-primary/5 sm:px-10 sm:py-5" href="#servicos">
+              View case studies
+            </a>
+          </div>
+        </div>
+        <div class="relative order-first mb-2 sm:mb-4 lg:order-none lg:mb-0">
+          <div class="relative aspect-[4/3] overflow-hidden border border-outline-variant bg-surface-container-low p-4 sm:aspect-square sm:p-6 lg:p-8">
+            <div class="pointer-events-none absolute inset-0 overflow-hidden p-4 font-mono text-[10px] leading-relaxed opacity-10">
+              { "protocol": "NIXU_DIGITAL", "status": "ACTIVE", "engineering": "ELITE", "modules": ["INFRA", "CLOUD", "SEC", "WEB"], "latency": "0.02ms" }
+              <br>while(active) { build(future); optimize(global); }
+            </div>
+            <img class="h-full w-full object-cover grayscale contrast-125 opacity-90" src="./assets/hero-image.png" alt="Advanced server hardware with glowing blue and purple lights">
+          </div>
+          <div class="mt-4 max-w-xs border border-outline-variant bg-surface-container-lowest p-4 sm:absolute sm:-bottom-6 sm:-left-4 sm:p-6 lg:-left-6">
+            <div class="mb-4 flex items-center justify-between">
+              <span class="font-micro-data text-micro-data uppercase text-outline">Network Status</span>
+              <span class="h-2 w-2 animate-pulse rounded-full bg-emerald-500"></span>
+            </div>
+            <div class="mb-2 h-1 w-full bg-surface-container-high">
+              <div class="h-full w-3/4 bg-primary"></div>
+            </div>
+            <p class="text-[10px] font-mono text-outline">Uptime: 99.999% | Regions: global_cluster_A</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos" class="bg-white py-20 sm:py-24">
+      <div class="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
+        <div class="mb-12 sm:mb-16">
+          <h2 class="mb-2 font-headline-md text-headline-md uppercase text-primary">Serviços de Elite</h2>
+          <p class="font-body-main italic text-on-surface-variant">Engineering services for mission-critical digital products.</p>
+        </div>
+        <div class="grid grid-cols-1 gap-grid-gap border border-surface-container-highest bg-surface-container-highest md:grid-cols-2">
+          <div class="neo-brutalist-card group bg-white p-7 sm:p-8 lg:p-12">
+            <div class="mb-8 flex h-16 w-16 items-center justify-center bg-surface-container-low text-primary transition-colors group-hover:bg-primary group-hover:text-white">
+              <span class="material-symbols-outlined text-4xl">code</span>
+            </div>
+            <h3 class="mb-4 font-service-title text-service-title uppercase text-on-surface transition-colors group-hover:text-primary">Custom Software</h3>
+            <p class="mb-6 text-sm font-body-main text-on-surface-variant">Desenvolvimento full-stack escalável utilizando as tecnologias mais modernas do mercado (React, Node, Go, Rust).</p>
+            <div class="font-micro-data text-micro-data uppercase text-outline">Stack: TypeScript, Cloud Native, Hexagonal Arch</div>
+          </div>
+          <div class="neo-brutalist-card group bg-white p-7 sm:p-8 lg:p-12">
+            <div class="mb-8 flex h-16 w-16 items-center justify-center bg-surface-container-low text-primary transition-colors group-hover:bg-primary group-hover:text-white">
+              <span class="material-symbols-outlined text-4xl">cloud</span>
+            </div>
+            <h3 class="mb-4 font-service-title text-service-title uppercase text-on-surface transition-colors group-hover:text-primary">Cloud Infrastructure</h3>
+            <p class="mb-6 text-sm font-body-main text-on-surface-variant">Arquitetura AWS/GCP com foco em alta disponibilidade, custos otimizados e automação via Terraform/Kubernetes.</p>
+            <div class="font-micro-data text-micro-data uppercase text-outline">Infrastructure as Code | Zero-Downtime</div>
+          </div>
+          <div class="neo-brutalist-card group bg-white p-7 sm:p-8 lg:p-12">
+            <div class="mb-8 flex h-16 w-16 items-center justify-center bg-surface-container-low text-primary transition-colors group-hover:bg-primary group-hover:text-white">
+              <span class="material-symbols-outlined text-4xl">shield</span>
+            </div>
+            <h3 class="mb-4 font-service-title text-service-title uppercase text-on-surface transition-colors group-hover:text-primary">Cybersecurity</h3>
+            <p class="mb-6 text-sm font-body-main text-on-surface-variant">Auditorias de segurança, testes de invasão e implementação de protocolos Zero Trust para proteção total de dados.</p>
+            <div class="font-micro-data text-micro-data uppercase text-outline">Pentesting | Encryption | Compliance</div>
+          </div>
+          <div class="neo-brutalist-card group bg-white p-7 sm:p-8 lg:p-12">
+            <div class="mb-8 flex h-16 w-16 items-center justify-center bg-surface-container-low text-primary transition-colors group-hover:bg-primary group-hover:text-white">
+              <span class="material-symbols-outlined text-4xl">memory</span>
+            </div>
+            <h3 class="mb-4 font-service-title text-service-title uppercase text-on-surface transition-colors group-hover:text-primary">AI &amp; Data Engineering</h3>
+            <p class="mb-6 text-sm font-body-main text-on-surface-variant">Pipeline de dados robustos e integração de LLMs para transformar informações brutas em inteligência de negócio.</p>
+            <div class="font-micro-data text-micro-data uppercase text-outline">Machine Learning | ETL | Big Data</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="engineering" class="border-y border-surface-container-highest bg-white py-16">
+      <div class="mx-auto grid max-w-7xl gap-4 px-5 sm:gap-6 sm:px-6 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
+        <div class="border border-outline-variant bg-surface px-6 py-8">
+          <div class="mb-3 font-micro-data text-micro-data uppercase text-outline">Deploy cadence</div>
+          <div class="font-['Space_Grotesk'] text-3xl font-bold text-primary">Daily</div>
+        </div>
+        <div class="border border-outline-variant bg-surface px-6 py-8">
+          <div class="mb-3 font-micro-data text-micro-data uppercase text-outline">Cloud footprint</div>
+          <div class="font-['Space_Grotesk'] text-3xl font-bold text-primary">Multi-region</div>
+        </div>
+        <div class="border border-outline-variant bg-surface px-6 py-8">
+          <div class="mb-3 font-micro-data text-micro-data uppercase text-outline">Security model</div>
+          <div class="font-['Space_Grotesk'] text-3xl font-bold text-primary">Zero Trust</div>
+        </div>
+        <div class="border border-outline-variant bg-surface px-6 py-8">
+          <div class="mb-3 font-micro-data text-micro-data uppercase text-outline">Observability</div>
+          <div class="font-['Space_Grotesk'] text-3xl font-bold text-primary">Full stack</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="bg-[#F1EFE8] py-20 sm:py-24 lg:py-32">
+      <div class="mx-auto grid max-w-7xl grid-cols-1 items-start gap-12 px-5 sm:gap-16 sm:px-6 lg:grid-cols-12 lg:px-8">
+        <div class="lg:col-span-5">
+          <span class="mb-4 block font-micro-data text-micro-data uppercase tracking-[0.3em] text-primary">01 / Nossa filosofia</span>
+          <h2 class="font-display-lg text-[clamp(2.3rem,7vw,3rem)] leading-tight text-on-surface">
+            Engenharia Senior <br>para Problemas <br>Complexos.
+          </h2>
+        </div>
+        <div class="space-y-12 lg:col-span-7">
+          <p class="text-lg font-body-main text-on-surface-variant sm:text-xl">
+            A <span class="font-bold text-primary">NIXU</span> não é apenas uma consultoria. Somos um estúdio de engenharia formado por veteranos que ajudaram a escalar plataformas de nível global.
+          </p>
+          <div class="grid grid-cols-1 gap-8 border-t border-outline-variant pt-12 md:grid-cols-2">
+            <div>
+              <h4 class="mb-4 font-label-caps text-label-caps uppercase text-primary">Experiência comprovada</h4>
+              <p class="text-sm leading-relaxed text-on-surface-variant">Nossa equipe traz no DNA a experiência técnica de gigantes como <span class="font-bold">Mercado Pago</span> e <span class="font-bold">iFood</span>, dominando ambientes de alta transacionalidade.</p>
+            </div>
+            <div>
+              <h4 class="mb-4 font-label-caps text-label-caps uppercase text-primary">Foco no resultado</h4>
+              <p class="text-sm leading-relaxed text-on-surface-variant">Removemos a burocracia do desenvolvimento de software. Focamos na entrega de código limpo, testado e pronto para produção.</p>
+            </div>
+          </div>
+          <div class="flex flex-wrap gap-8 grayscale opacity-40 sm:gap-12 lg:gap-16">
+            <div class="text-xl font-black tracking-tighter sm:text-2xl">MERCADO PAGO</div>
+            <div class="text-xl font-black tracking-tighter sm:text-2xl">iFOOD</div>
+            <div class="text-xl font-black tracking-tighter sm:text-2xl">NUBANK</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="border-y border-surface-container-highest bg-white py-20 sm:py-24">
+      <div class="mx-auto mb-12 max-w-4xl px-5 text-center sm:mb-16 sm:px-6 lg:px-8">
+        <h2 class="mb-4 font-headline-md text-headline-md uppercase text-primary">Vamos construir o futuro?</h2>
+        <p class="italic text-on-surface-variant">Let's build the future together.</p>
+      </div>
+      <div class="mx-auto max-w-3xl px-5 sm:px-6 lg:px-8">
+        <form id="contact-form" class="space-y-6">
+          <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+            <div class="space-y-2">
+              <label class="ml-1 font-micro-data text-micro-data uppercase text-outline" for="name">Nome / Name</label>
+              <input id="name" class="w-full rounded-lg border-none bg-[#F1EFE8] p-4 outline-none focus:ring-1 focus:ring-primary" placeholder="Enter your full name" type="text">
+            </div>
+            <div class="space-y-2">
+              <label class="ml-1 font-micro-data text-micro-data uppercase text-outline" for="email">Email / E-mail</label>
+              <input id="email" class="w-full rounded-lg border-none bg-[#F1EFE8] p-4 outline-none focus:ring-1 focus:ring-primary" placeholder="name@company.com" type="email">
+            </div>
+          </div>
+          <div class="space-y-2">
+            <label class="ml-1 font-micro-data text-micro-data uppercase text-outline" for="message">Mensagem / Message</label>
+            <textarea id="message" class="w-full rounded-lg border-none bg-[#F1EFE8] p-4 outline-none focus:ring-1 focus:ring-primary" placeholder="Describe your technical challenge..." rows="5"></textarea>
+          </div>
+          <div class="flex flex-col gap-4 pt-4 md:flex-row">
+            <button class="flex min-h-[56px] flex-1 items-center justify-center bg-[#533AB7] px-6 py-5 text-center font-label-caps text-label-caps uppercase tracking-widest text-white transition-all hover:brightness-110" type="submit">
+              Enviar proposta
+            </button>
+            <a id="whatsapp-button" class="flex min-h-[56px] flex-1 items-center justify-center gap-3 bg-[#25D366] px-6 py-5 text-center font-label-caps text-label-caps uppercase tracking-widest text-white transition-all hover:brightness-110" href="https://wa.me/5511975198597?text=Ol%C3%A1%2C%20quero%20solicitar%20um%20or%C3%A7amento%20para%20um%20projeto%20com%20a%20NIXU%20Digital." target="_blank" rel="noopener noreferrer">
+              <span class="material-symbols-outlined">chat</span>
+              Whatsapp direct
+            </a>
+          </div>
+          <p id="form-feedback" class="hidden text-sm text-primary"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-gray-300 bg-[#F1EFE8]">
+    <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-8 px-5 py-12 sm:px-6 sm:py-16 md:flex-row lg:px-8">
+      <div class="text-center md:text-left">
+        <div class="mb-2 text-xl font-black text-indigo-700">NIXU</div>
+        <div class="font-['Space_Grotesk'] text-xs font-medium uppercase tracking-widest text-slate-500">
+          © 2024 NIXU DIGITAL. ELITE ENGINEERING STUDIO.
+        </div>
+      </div>
+      <div class="flex flex-wrap justify-center gap-6 font-['Space_Grotesk'] text-xs font-medium uppercase tracking-widest sm:gap-8">
+        <a class="underline underline-offset-4 hover:text-indigo-700 text-slate-500" href="#">Privacy</a>
+        <a class="underline underline-offset-4 hover:text-indigo-700 text-slate-500" href="#">Terms</a>
+        <a class="underline underline-offset-4 hover:text-indigo-700 text-slate-500" href="#">LinkedIn</a>
+        <a class="underline underline-offset-4 hover:text-indigo-700 text-slate-500" href="#">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
